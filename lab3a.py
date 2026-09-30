@@ -5,5 +5,8 @@
 # Date:
 # Purpose: 
 # Usage: ./lab3a.py
-
-
+import random as r
+sequence=r.sample(range(0,100),20)
+print(sequence)
+sequence.sort()
+print(sequence)
